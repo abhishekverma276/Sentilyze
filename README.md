@@ -1,4 +1,4 @@
-# Sentify - Youtube Sentiment Analysis Chrome Extension
+# Sentify - YouTube Sentiment Analysis Chrome Extension
 🚧 This project is currently under development 🚧
 We're working hard to bring you an awesome project, but it's not quite ready yet! Stay tuned for updates.
 

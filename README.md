@@ -6,4 +6,4 @@ We're working hard to bring you an awesome project, but it's not quite ready yet
 Sentify aims to analyze sentiment in text from social media, news, and websites. Real-time analysis, granular classification, customizable settings.
 
 Some Glimpses of current development state:
-![image](https://github.com/abhishekverma276/Sentify/assets/96565154/e8ac0c6c-e64e-478f-b9a1-7dbd05771cdc)
+![image](https://github.com/abhishekverma276/Sentify/assets/96565154/854762f6-f693-4f10-b34e-4166a2642819)

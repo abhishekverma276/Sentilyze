@@ -1,6 +1,4 @@
 # Sentify - YouTube Sentiment Analysis Chrome Extension
-🚧 This project is currently under development 🚧
-We're working hard to bring you an awesome project, but it's not quite ready yet! Stay tuned for updates.
 
 
 This is a Chrome extension that fetches comments from a YouTube video and performs sentiment analysis on them using a Flask backend server and Hugging Face's sentiment analysis pipeline.

@@ -6,7 +6,8 @@ This is a Chrome extension that fetches comments from a YouTube video and perfor
 ## Features
 - Fetch YouTube comments based on the video URL.
 - Perform sentiment analysis on the comments.
-- Display the sentiment analysis results.
+- Utilizes RoBERTa model for accuracy and precision.
+- Display the sentiment analysis results with 3 classifications as Positive, Neutral and Negative.
 - Show most used positive and negative words from the comments.
 
 

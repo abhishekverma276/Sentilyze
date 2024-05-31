@@ -1,4 +1,4 @@
-# Sentify - 🎥YouTube Sentiment Analysis Extension 🔍
+# Sentilyze - 🎥YouTube Sentiment Analysis Extension 🔍
 
 
 This Chrome extension fetches comments from YouTube videos and performs sentiment analysis using advanced NLP models. It provides insightful sentiment breakdowns and highlights the most frequently used positive and negative words.

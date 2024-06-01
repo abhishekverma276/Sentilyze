@@ -1,0 +1,110 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#container {
+  width: 600px;
+  height: 800px; /* Adjust the height as needed */
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: auto; /* Set to auto to enable scrolling if content exceeds height */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Hide container scrollbar */
+#container::-webkit-scrollbar {
+  display: none;
+}
+
+header {
+  background-color: #ff0000;
+  color: white;
+  padding: 130px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 50;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 i {
+  margin-right: 10px;
+}
+
+main {
+  padding: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px 0 0 5px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#results {
+  flex: 1;
+  overflow-y: auto;
+  padding-right: 10px;
+  max-height: 600px; /* Adjust the max-height as needed */
+}
+
+.comment {
+  background-color: #f4f4f4;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.comment:nth-child(odd) {
+  background-color: #e9ecef;
+}
+
+h3 {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #007bff;
+}
+
+p {
+  font-size: 14px;
+  color: #333;
+}
